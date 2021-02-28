@@ -29,7 +29,7 @@ class App extends React.Component {
       return <Preloader />
     }
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="app-wrapper">
           <HeaderContainer />
           <Navbar />
@@ -41,7 +41,7 @@ class App extends React.Component {
             <Route path="/login" render={() => <Login />} />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
