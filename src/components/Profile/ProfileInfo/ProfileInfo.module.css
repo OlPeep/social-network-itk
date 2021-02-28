@@ -1,0 +1,9 @@
+.description {
+    padding: 10px;
+}
+
+.photo>img {
+    height: 180px;
+    width: 250px;
+    object-fit: cover;
+}

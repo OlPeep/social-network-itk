@@ -1,0 +1,20 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(219, 219, 219);
+  height: 100%; /* Full height */
+  overflow: auto;
+}
+
+.liitem {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.liitem a {
+  color:black;
+  text-decoration: none;
+}
+
+.liitem a.activeLink {
+  color: green;
+}

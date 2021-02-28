@@ -1,0 +1,19 @@
+.userimg>img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+
+.activePage {
+    font-weight: bold;
+}
+
+.pageNumber {
+    padding: 5px;
+    cursor: pointer;
+}

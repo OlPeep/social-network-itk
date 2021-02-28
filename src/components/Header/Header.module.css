@@ -1,0 +1,14 @@
+.header {
+  grid-area: h;
+  background-color: rgb(219, 219, 219);
+}
+
+.header img {
+  width:90px;
+  height:90px;
+  border-radius: 50%;
+}
+
+.isLoggedIn {
+  float: right;
+}
